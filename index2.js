@@ -35,7 +35,7 @@ class StringCalculator {
 
     return { nums, delimiters };
   }
-
+  // console.log("Hello world")
   splitNumbers(nums, delimiters) {
     const regex = new RegExp(`[${delimiters.join("")}]`);
     return nums.split(regex).map((n) => parseInt(n, 10));
