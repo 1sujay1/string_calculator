@@ -2,7 +2,7 @@ class StringCalculator {
   constructor() {
     this.callCount = 0;
   }
-
+//demo content
   add(numbers) {
     this.callCount++;
     if (numbers === "") return 0;
