@@ -6,7 +6,7 @@ class StringCalculator {
   add(numbers) {
     this.callCount++;
     if (numbers === "") return 0;
-
+    //console comments
     const { nums, delimiters } = this.parseInput(numbers);
     const parsedNumbers = this.splitNumbers(nums, delimiters);
 
