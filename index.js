@@ -2,7 +2,8 @@ class StringCalculator {
   constructor() {
     this.callCount = 0;
   }
-
+  //demo contents
+  //added icon
   add(numbers) {
     this.callCount++;
     if (numbers === "") return 0;
