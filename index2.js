@@ -35,7 +35,7 @@ class StringCalculator {
 
     return { nums, delimiters };
   }
-
+  // console.log("Hello world12345")
   splitNumbers(nums, delimiters) {
     const regex = new RegExp(`[${delimiters.join("")}]`);
     return nums.split(regex).map((n) => parseInt(n, 10));
@@ -46,7 +46,7 @@ class StringCalculator {
   }
 }
 const calculator = new StringCalculator();
-
+//console.log("test")
 try {
   console.assert(calculator.add("") === 0, "Test Case 1 Failed");
   console.assert(calculator.add("1") === 1, "Test Case 2 Failed");
